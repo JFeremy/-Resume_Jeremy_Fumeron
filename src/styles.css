@@ -1,0 +1,39 @@
+html {
+  background-color: #00171f;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  width: 2em;
+}
+.resume {
+  width: 60%;
+  border-radius: 4px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  padding: 0px 30px;
+}
+a > * {
+  padding: 20px 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
