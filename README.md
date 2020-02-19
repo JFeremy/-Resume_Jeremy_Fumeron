@@ -1,2 +1,2 @@
-# -Resume_Jeremy_Fumeron
+# Resume_Jeremy_Fumeron
 Mon CV privé
