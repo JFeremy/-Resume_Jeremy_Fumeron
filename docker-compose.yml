@@ -1,0 +1,11 @@
+# docker-compose.yml
+
+version: '3'
+
+services:
+  front-end:
+    image: react:dev
+    ports:
+      - '3001:3000'
+    volumes:
+      - ./:/app
